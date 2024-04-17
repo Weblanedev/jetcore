@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="mt-8 text-xs">© 2021 PSALMSTONES TECHNOLOGIES LTD - All rights reserved</p>
+        <p className="mt-8 text-xs">© 2021 QWICQ TECHNOLOGIES LTD - All rights reserved</p>
       </div>
     </footer>
   );
