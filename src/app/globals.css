@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 body {
   overflow-x: hidden;
 }
@@ -11,7 +13,7 @@ html {
 }
 
 .service-name {
-  @apply text-yellow-600 uppercase block font-semibold text-sm tracking-widest;
+  @apply text-orange-600 uppercase block font-semibold text-sm tracking-widest;
 }
 
 .title {

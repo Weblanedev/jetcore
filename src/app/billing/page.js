@@ -156,7 +156,7 @@ const Billing = () => {
         </div>
 
         <div className="flex flex-col gap-[15px] items-start w-full justify-center">
-          <h4 className="font-bold text-yellow-400 leading-[28px]">
+          <h4 className="font-bold text-orange-400 leading-[28px]">
             YOUR ORDER
           </h4>
 
@@ -195,7 +195,7 @@ const Billing = () => {
             </div>
             <div className="flex items-center justify-between py-[15px] w-full border-b">
               <h4 className="text-[#707070] font-medium text-[13px]">TOTAL</h4>
-              <h4 className="text-yellow-400 font-medium text-[16px]">
+              <h4 className="text-orange-400 font-medium text-[16px]">
                 {add100Dollars(selectedItem?.price)}
               </h4>
             </div>
@@ -340,7 +340,7 @@ const Billing = () => {
               based on service demand. It may be lesser or higher.
             </p>
 
-            <h4 className="font-bold text-yellow-400 mt-[20px] leading-[28px]">
+            <h4 className="font-bold text-orange-400 mt-[20px] leading-[28px]">
               PAYMENT METHODS
             </h4>
 
@@ -361,7 +361,7 @@ const Billing = () => {
               described in our{" "}
               <Link
                 href="/privacy-policy"
-                className="text-yellow-400 cursor-pointer"
+                className="text-orange-400 cursor-pointer"
               >
                 privacy policy.
               </Link>
@@ -371,7 +371,7 @@ const Billing = () => {
               type="submit"
               disabled={isButtonDisabled}
               onClick={handleSubmit}
-              className={`group gap-[8px] mt-[30px] w-[100%] text-center text-[16px] sm:text-[24px] rounded-full font-body bg-white text-yellow-600 ${!isButtonDisabled && 'hover:bg-yellow-600 hover:text-white'} px-[30px] sm:px-[97px] py-[15px] sm:py-[21px] border border-yellow-400 transition-one`}>
+              className={`group gap-[8px] mt-[30px] w-[100%] text-center text-[16px] sm:text-[24px] rounded-full font-body bg-white text-orange-600 ${!isButtonDisabled && 'hover:bg-orange-600 hover:text-white'} px-[30px] sm:px-[97px] py-[15px] sm:py-[21px] border border-orange-400 transition-one`}>
               Place Order
             </button>
           </form>

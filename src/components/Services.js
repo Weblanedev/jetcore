@@ -28,7 +28,7 @@ const Services = () => {
       <div className="flex gap-10 items-center flex-col-reverse lg:flex-row">
         <div className="relative w-full flex-1">
           <Image
-            src="https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/753876/pexels-photo-753876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             width={500}
             height={500}
             alt="video banner"
@@ -45,8 +45,7 @@ const Services = () => {
             </h2>
           </div>
           <p className="leading-loose">
-          At PsalmsTones Technologies Ltd, we're passionate about helping you turn your house into a home with our exquisite selection of home decor products. From stylish furniture to elegant accents, we offer everything you need to create spaces that reflect your personality and enhance your lifestyle.
-          At PsalmsTones Technologies Ltd, our mission is to inspire and empower you to express your unique sense of style through beautifully curated home decor. With our extensive range of products, personalized service, and expert advice, we're here to make your home decor dreams a reality
+          Welcome to QWICQ LTD, your one-stop destination for all your car needs. Whether you're looking to rent a vehicle for a weekend getaway or purchase your dream car, we've got you covered. Explore our wide range of rental options or browse through our inventory of quality pre-owned vehicles for sale. With competitive prices and exceptional service, we're committed to making your car rental or purchase experience seamless and enjoyable.
           </p>
         </div>
       </div>

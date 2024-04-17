@@ -16,20 +16,17 @@ const WorkCard = ({ num, title, desc }) => {
 
 const Work = () => {
   return (
-    <section className="w-full bg-yellow-500 text-white bg-[url('/work/workbg.png')] bg-cover bg-no-repeat bg-center">
+    <section className="w-full bg-orange-500 text-white bg-[url('/work/workbg.png')] bg-cover bg-no-repeat bg-center">
       <div className="flex flex-col gap-10 lg:gap-16 container mx-auto md:px-16 px-5 py-12 sm:py-20 md:py-36">
         <div>
-          <span className="uppercase block font-semibold text-sm tracking-widest text-center text-yellow-200">
-            WHATS THE FUNCTION
-          </span>
           <h2 className="text-2xl sm:text-4xl font-semibold my-3 text-center ">
-            Let&apos;s see how it works
+         The Process
           </h2>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-5">
           <div className="relative">
-            <WorkCard num="01" title="Explore Our Collection" desc="Browse our extensive collection of home decor products on our website or visit our showroom to see our curated selection in person."/>
+            <WorkCard num="01" title="Explore the Fleet" desc="Browse our extensive collection of cars on our website or visit our showroom to see our curated selection in person."/>
             <Image
               src={"/work/arrow.svg"}
               width={210}
@@ -42,8 +39,8 @@ const Work = () => {
           <div className="relative">
             <WorkCard
               num="02"
-              title="Get Inspired"
-              desc="Take inspiration from our curated room displays, design ideas, and customer favorites to envision how our products can enhance your home."
+              title="Select Your Vehicle"
+              desc="Choose the car that best suits your needs, whether it's a compact car for city driving or an SUV for a family road trip."
             />
             <Image
               src={"/work/arrow.svg"}
@@ -54,7 +51,7 @@ const Work = () => {
             />
           </div>
           <div className="relative">
-            <WorkCard num="03" title="Transform Your Space" desc="Once your home decor products have arrived, it's time to bring your vision to life. Whether you're arranging furniture, hanging artwork, or adding finishing touches."/>
+            <WorkCard num="03" title="Pickup or Delivery" desc="Select your preferred pickup location or inquire about delivery options if available."/>
             <Image
               src={"/work/arrow.svg"}
               width={205}
@@ -63,7 +60,7 @@ const Work = () => {
               className="hidden absolute top-2 left-[4.7rem] xl:block"
             />
           </div>
-          <WorkCard num="04" title="Enjoy Your Sanctuary" desc="Sit back, relax, and enjoy your newly decorated home. Whether you're hosting gatherings with friends and family or simply unwinding after a long day." />
+          <WorkCard num="04" title="Enjoy Your Ride" desc="Pick up your rental car at the designated location and hit the road! DriveEasy Rentals is here to make sure you have a smooth and enjoyable experience." />
         </div>
       </div>
     </section>

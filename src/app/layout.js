@@ -5,8 +5,8 @@ import ThemeProvider from "@/components/ThemeProvider";
 const dmSans = DM_Sans({ subsets: ["latin"], weight: ["400", "500", "700"] });
 
 export const metadata = {
-  title: "PSALMSTONES LTD",
-  description: "At PsalmsTones Technologies Ltd, we're passionate about helping you turn your house into a home with our exquisite selection of home decor products. ",
+  title: "QWICQ-TRANZACT LTD",
+  description: "Whether you're looking to rent a vehicle for a weekend getaway or purchase your dream car, we've got you covered.",
 };
 
 export default function RootLayout({ children }) {

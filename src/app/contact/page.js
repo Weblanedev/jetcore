@@ -98,7 +98,7 @@ const Contact = () => {
               <div className="flex flex-col w-full gap-5 md:flex-row">
                 <input
                   type="text"
-                  className="border border-gray-300 text-gray-900 text-[15px] block w-full rounded-md p-[15px] placeholder:text-yellow-400"
+                  className="border border-gray-300 text-gray-900 text-[15px] block w-full rounded-md p-[15px] placeholder:text-orange-400"
                   placeholder="Your Name"
                   value={name}
                   onChange={handleNameChange}
@@ -106,7 +106,7 @@ const Contact = () => {
                 />
                 <input
                   type="email"
-                  className="border border-gray-300 text-gray-900 text-[15px] block w-full rounded-md p-[15px] placeholder:text-yellow-400" 
+                  className="border border-gray-300 text-gray-900 text-[15px] block w-full rounded-md p-[15px] placeholder:text-orange-400" 
                   placeholder="Your Email"
                   value={email}
                   onChange={handleEmailChange}
@@ -116,7 +116,7 @@ const Contact = () => {
               <div className="flex flex-col w-full gap-5 md:flex-row">
                 <input
                   type="text"
-                  className="border border-gray-300 text-gray-900 text-[15px] block w-full rounded-md p-[15px] placeholder:text-yellow-400"
+                  className="border border-gray-300 text-gray-900 text-[15px] block w-full rounded-md p-[15px] placeholder:text-orange-400"
                   placeholder="Phone"
                   value={phone}
                   onChange={handlePhoneChange}
@@ -124,7 +124,7 @@ const Contact = () => {
                 />
                 <input
                   type="text"
-                  className="border border-gray-300 text-gray-900 text-[15px] block w-full rounded-md p-[15px] placeholder:text-yellow-400"
+                  className="border border-gray-300 text-gray-900 text-[15px] block w-full rounded-md p-[15px] placeholder:text-orange-400"
                   placeholder="Subject"
                   value={subject}
                   onChange={handleSubjectChange}
@@ -135,7 +135,7 @@ const Contact = () => {
               <textarea
                 id="message"
                 rows={7}
-                className="block p-[15px] w-full text-sm text-gray-900 border rounded-md border-gray-300 placeholder:text-yellow-400"
+                className="block p-[15px] w-full text-sm text-gray-900 border rounded-md border-gray-300 placeholder:text-orange-400"
                 placeholder="Your Message"
                 value={message}
                 onChange={handleMessageChange}
@@ -144,7 +144,7 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="text-base font-medium text-white bg-yellow-400 rounded-md px-7 md:px-12 py-[15px] hover:bg-yellow-600 flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-yellow-400"
+                className="text-base font-medium text-white bg-orange-400 rounded-md px-7 md:px-12 py-[15px] hover:bg-orange-600 flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-orange-400"
                 onClick={toggleShowContactModal}
                 disabled={isButtonDisabled}
               >
@@ -164,7 +164,7 @@ const Contact = () => {
               <h4 className="text-[24px] leading-[24px] font-medium">
                 Call Us
               </h4>
-              <p className="text-yellow-500 leading-[16px]">
+              <p className="text-orange-500 leading-[16px]">
                 +234-818-566-4805
               </p>
             </div>
@@ -175,7 +175,7 @@ const Contact = () => {
               <h4 className="text-[24px] leading-[24px] font-medium">
                 Mail Us
               </h4>
-              <p className="text-yellow-500 leading-[16px]">
+              <p className="text-orange-500 leading-[16px]">
               support@bronzetent.com
               </p>
             </div>
@@ -186,7 +186,7 @@ const Contact = () => {
               <h4 className="text-[24px] leading-[24px] font-medium">
                 Address
               </h4>
-              <p className="text-yellow-500 leading-normal">
+              <p className="text-orange-500 leading-normal">
                 Lagos, Nigeira
               </p>
             </div>

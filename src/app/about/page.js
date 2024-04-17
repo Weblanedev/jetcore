@@ -1,13 +1,11 @@
 import Services from "@/components/Services";
-import CoreFeatures from "@/components/CoreFeatures";
-import Work from "@/components/Work";
+import Features from "@/components/Features";
 
 const page = () => {
     return (
         <div className="pt-[150px] flex flex-col gap-y-[100px]">   
             <Services />
-            <Work />
-            <CoreFeatures />
+            {/* <Features /> */}
         </div>
     )
 }

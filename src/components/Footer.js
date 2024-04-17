@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <p className="max-w-xs mt-4 text-sm">
-            At PsalmsTones Technologies Ltd, we're passionate about helping you turn your house into a home with our exquisite selection of home decor products. 
+            At QWICQ Technologies Ltd, we're committed to making your car rental or purchase experience seamless and enjoyable.
             </p>
         
           </div>
@@ -19,16 +19,22 @@ const Footer = () => {
               <p className="font-medium">Company</p>
               <nav className="flex flex-col mt-4 space-y-2 text-sm">
                 <Link
-                  href="/"
+                  href="/about"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
                   About
                 </Link>
                 <Link
-                  href="/"
+                  href="/products"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  History
+                  Product
+                </Link>
+                <Link
+                  href="/services"
+                  className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
+                >
+                  Services
                 </Link>
               </nav>
             </div>

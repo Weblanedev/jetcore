@@ -23,7 +23,7 @@ const Features = () => {
       <span className="service-name text-center">Our Services</span>
       <h2 className="title text-center">Dive into the services we provide</h2>
 
-      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 md:gap-5 text-center mt-10 md:mt-20">
+      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2 md:gap-5 text-center mt-10 md:mt-20">
         <FeatureProduct
           imgSrc="/features/1.svg"
           title="Construction Expertise"
