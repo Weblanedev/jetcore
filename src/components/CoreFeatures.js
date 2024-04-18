@@ -25,7 +25,7 @@ const CoreFeatures = () => {
           Ready to get your ride? Contact us to schedule a consultation or visit our retail outlet to explore our selection of premium cars.
         </p>
         <Link href="/contact">
-        <button className="mt-5 w-fit md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-orange-600 hover:border-orange-600 hover:bg-rose-600 hover:shadow-rose-600 hover:shadow-2xl rounded-full">
+        <button className="mt-5 w-fit md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-orange-600 hover:border-orange-600 hover:bg-orange-600 hover:shadow-orange-600 hover:shadow-2xl rounded-full">
           Contact Us
         </button>
         </Link>
