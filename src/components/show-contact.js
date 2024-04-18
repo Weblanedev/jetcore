@@ -6,7 +6,7 @@ import { Link } from "next/link";
 const ShowContactModal = (props) => {
   const { toggle, show } = props;
 
-  const playerRef = useRef<Player>(null);
+  const playerRef = useRef(null);
 
   useEffect(() => {
     const timer = setTimeout(() => {
