@@ -187,7 +187,7 @@ const Contact = () => {
                 Address
               </h4>
               <p className="text-orange-500 leading-normal">
-                Lagos, Nigeira
+                Lekki, Lagos, Nigeira
               </p>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Link from "next/link";
 const CoreFeatures = () => {
   return (
     <section className="container mx-auto px-4 md:px-16 flex flex-col lg:flex-row items-center lg:gap-20 gap-14">
@@ -24,9 +24,11 @@ const CoreFeatures = () => {
         <p className="text-lg leading-loose">
           Ready to get your ride? Contact us to schedule a consultation or visit our retail outlet to explore our selection of premium cars.
         </p>
-        <button className="mt-5 w-fit md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-orange-600 hover:border-orange-600 hover:bg-orange-600 hover:shadow-orange-600 hover:shadow-2xl rounded-full">
+        <Link href="/contact">
+        <button className="mt-5 w-fit md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-orange-600 hover:border-orange-600 hover:bg-rose-600 hover:shadow-rose-600 hover:shadow-2xl rounded-full">
           Contact Us
         </button>
+        </Link>
       </div>
 
 
