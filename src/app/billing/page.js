@@ -360,7 +360,7 @@ const Billing = () => {
               your experience throughout this website, and for other purposes
               described in our{" "}
               <Link
-                href="/privacy-policy"
+                href="/"
                 className="text-orange-400 cursor-pointer"
               >
                 privacy policy.
