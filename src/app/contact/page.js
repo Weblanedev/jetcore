@@ -1,6 +1,5 @@
 "use client"
 
-
 import { useEffect, useState } from "react";
 import { useModals } from "../../components/useModal";
 import ShowContactModal from "../../components/show-contact";
