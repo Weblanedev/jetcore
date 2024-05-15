@@ -22,22 +22,22 @@ const QualityFeatures = () => {
         <QualityFeature
           imgSrc="/features/1.svg"
           title="Convenience"
-          desc="With multiple pickup and drop-off locations, flexible rental options, and hassle-free financing, we make it easy to get you on the road."
+          desc="Kingston operates state-of-the-art manufacturing facilities equipped with cutting-edge technology to produce a wide range of fabrics, including cotton, polyester, nylon, and blends. Our manufacturing processes prioritize efficiency, sustainability, and quality control to ensure consistent and superior products."
         />
         <QualityFeature
           imgSrc="/features/2.svg"
-          title="Partnership deal"
-          desc="We offer exclusive partnership deals and trade discounts for interior designers, architects, contractors, and other trade professionals."
+          title="Supply Chain Management"
+          desc="With a robust supply chain network and strategic partnerships with suppliers worldwide, Kingston offers comprehensive supply chain management services. From sourcing raw materials to logistics and distribution, we optimize every aspect of the supply chain to deliver cost-effective solutions and meet our clients' diverse needs."
         />
         <QualityFeature
           imgSrc="/features/3.svg"
           title="Exceptional Service"
-          desc="Our friendly and knowledgeable staff are dedicated to providing you with a seamless car rental or purchase experience."
+          desc="At Kingston, we prioritize customer satisfaction and strive to provide exceptional service at every stage of the process. Our dedicated customer support team is available to assist clients with inquiries, orders, and any other needs they may have, offering prompt and personalized assistance to ensure a seamless experience."
         />
         <QualityFeature
           imgSrc="/features/4.svg"
-          title="Customer Support"
-          desc="At QWICQ Technologies Ltd, we're dedicated to providing exceptional customer support to ensure that your experience with us is nothing short of excellent."
+          title="Quality Assurance"
+          desc="Quality is at the forefront of everything we do at Kingston. We adhere to stringent quality assurance protocols throughout the manufacturing process, conducting rigorous testing and inspection to ensure that our fabrics meet the highest standards of durability, performance, and safety."
         />
       </div>
     </section>

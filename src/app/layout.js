@@ -5,8 +5,8 @@ import ThemeProvider from "@/components/ThemeProvider";
 const dmSans = DM_Sans({ subsets: ["latin"], weight: ["400", "500", "700"] });
 
 export const metadata = {
-  title: "QWICQ-TRANZACT LTD",
-  description: "Whether you're looking to rent a vehicle for a weekend getaway or purchase your dream car, we've got you covered.",
+  title: "Kingston",
+  description: "Kingston is the leading provider of textile solutions, specializing in the production and distribution of high-quality fabrics for various industries.",
 };
 
 export default function RootLayout({ children }) {

@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <p className="max-w-xs mt-4 text-sm">
-            At QWICQ-TRANZACT SERVICES LTD, we're committed to making your car rental or purchase experience seamless and enjoyable.
+            As a forward-thinking company, Kingston is committed to driving innovation and sustainability in the textile industry.
             </p>
         
           </div>
@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="mt-8 text-xs">© 2021 QQWICQ-TRANZACT SERVICES LTD- All rights reserved</p>
+        <p className="mt-8 text-xs">© 2021 KINGSTON - All rights reserved</p>
       </div>
     </footer>
   );

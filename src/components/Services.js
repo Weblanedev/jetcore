@@ -41,11 +41,17 @@ const Services = () => {
            
             </span>
             <h2 className="text-3xl md:text-5xl font-bold text-center lg:text-left">
-            About QWICQ-TRANZACT Services LTD
+            About Kingston
             </h2>
           </div>
           <p className="leading-loose">
-          Welcome to QWICQ-TRANZACT Services LTD, your one-stop destination for all your car needs. Whether you're looking to rent a vehicle for a weekend getaway or purchase your dream car, we've got you covered. Explore our wide range of rental options or browse through our inventory of quality pre-owned vehicles for sale. With competitive prices and exceptional service, we're committed to making your car rental or purchase experience seamless and enjoyable.
+          Kingston is a leading provider of textile solutions, specializing in the production and distribution of high-quality fabrics for various industries, Kingston has built a reputation for excellence through its commitment to innovation, quality craftsmanship, and customer satisfaction.
+          </p>
+          <p className="leading-loose">
+          Our mission at Kingston Manufacturing and Supply Co. is to deliver exceptional textile solutions that exceed our customers' expectations. We strive to innovate continuously, uphold the highest standards of quality, and foster strong partnerships with our clients to drive mutual success.
+          </p>
+          <p className="leading-loose">
+          As a forward-thinking company, Kingston is committed to driving innovation and sustainability in the textile industry. We aim to leverage emerging technologies, enhance our environmental stewardship practices, and expand our product offerings to anticipate and meet the evolving needs of our customers and the market.
           </p>
         </div>
       </div>

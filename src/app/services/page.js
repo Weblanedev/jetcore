@@ -9,7 +9,7 @@ const Plan = ({ title }) => {
 
   return (
     <div className="flex items-center gap-2">
-      <CheckCircleIcon className="text-orange-600 text-xl" />
+      <CheckCircleIcon className="text-blue-600 text-xl" />
       <span>{title}</span>
     </div>
   );
@@ -55,11 +55,11 @@ const PricingCard = ({ name, title, price, image, btnText, trail, titleOne, titl
         <Link href="/billing">
           <p
             onClick={() => { purchase(name, price) }}
-            className="w-fit capitalize text-base hover:bg-orange-600 hover:shadow-md hover:shadow-orange-600 hover:border-2 border-2 border-transparent py-3 px-6 text-white bg-orange-600 hover:border-orange-600 hover:text-white rounded-full">
+            className="w-fit capitalize text-base hover:bg-blue-600 hover:shadow-md hover:shadow-blue-600 hover:border-2 border-2 border-transparent py-3 px-6 text-white bg-blue-600 hover:border-blue-600 hover:text-white rounded-full">
             {btnText}
           </p>
         </Link>
-        <span className="block text-orange-600 mt-5 font-semibold animate-bounce cursor-pointer">
+        <span className="block text-blue-600 mt-5 font-semibold animate-bounce cursor-pointer">
           {trail}
         </span>
       </div>
@@ -76,10 +76,10 @@ const page = () => {
       </div>
       <div className="grid grid-cols-3 gap-[40px]">
         <PricingCard
-          name="Daily Rentals"
-          title="Short-term rentals for daily use, perfect for running errands or exploring the city."
-          price="75"
-          image="https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          name="Textile sourcing and procurement services"
+          title="Elevate your brand with Kingston Manufacturing's private labeling and branding services. We understand the importance of brand identity and offer comprehensive solutions to help you showcase your unique vision and style."
+          price="90"
+          image="https://images.pexels.com/photos/236748/pexels-photo-236748.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           btnText="Purchase"
           titleOne="Sofas, couches, and sectionals"
           titleTwo="Dining tables and chairs"
@@ -88,34 +88,10 @@ const page = () => {
 
         />
         <PricingCard
-          name="Weekly Rentals"
-          title="Short-term rentals for weekly use, perfect for running errands or exploring the city."
-          price="500"
-          image="https://images.pexels.com/photos/18867032/pexels-photo-18867032/free-photo-of-traffic-on-a-crowded-street.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          btnText="Purchase"
-          titleOne="Sofas, couches, and sectionals"
-          titleTwo="Dining tables and chairs"
-          titleThree="Beds and mattresses"
-          titleFour="Cabinets and storage solutions"
-
-        />
-        <PricingCard
-          name="Monthly Rentals"
-          title="Short-term rentals for monthly use, perfect for running errands or exploring the city."
-          price="900"
-          image="https://images.pexels.com/photos/18776097/pexels-photo-18776097/free-photo-of-blue-and-white-honda-civic-cars.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          btnText="Purchase"
-          titleOne="Sofas, couches, and sectionals"
-          titleTwo="Dining tables and chairs"
-          titleThree="Beds and mattresses"
-          titleFour="Cabinets and storage solutions"
-
-        />
-        <PricingCard
-          name="One-Way Rentals"
-          title="Flexibility to pick up a rental car at one location and drop it off at another, great for road trips or moving purposes."
+          name="Textile consulting and design assistance"
+          title="Unlock the full potential of your textile projects with Kingston Manufacturing's consulting and design assistance services."
           price="200"
-          image="https://images.pexels.com/photos/17958138/pexels-photo-17958138/free-photo-of-cars-on-road-near-construction-beams-on-field.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          image="https://images.pexels.com/photos/7147479/pexels-photo-7147479.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           btnText="Purchase"
           titleOne="Sofas, couches, and sectionals"
           titleTwo="Dining tables and chairs"
@@ -124,10 +100,10 @@ const page = () => {
 
         />
         <PricingCard
-          name="Luxury Car Rentals"
-          title="Premium vehicles with top-of-the-line features and amenities for special occasions or luxury travel experiences."
-          price="1200"
-          image="https://images.pexels.com/photos/733745/pexels-photo-733745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          name="Private labeling and branding services"
+          title="Simplify your textile supply chain with Kingston Manufacturing's sourcing and procurement services. We understand the complexities of sourcing raw materials and managing suppliers, and we offer comprehensive solutions to streamline the process and optimize efficiency."
+          price="300"
+          image="https://images.pexels.com/photos/7256871/pexels-photo-7256871.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           btnText="Purchase"
           titleOne="Sofas, couches, and sectionals"
           titleTwo="Dining tables and chairs"

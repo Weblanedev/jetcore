@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className="container px-5 md:px-16 flex items-center justify-between mx-auto">
 
         <h2 className="text-2xl cursor-pointer font-[600]" onClick={() => router.push("/")}>
-          <span className="text-orange-600">QWICQ-TRANZACT LTD</span>
+          <span className="text-blue-600">KINGSTON.</span>
         </h2>
 
         <div>
@@ -53,7 +53,7 @@ const Navbar = () => {
             </button>
             <li
               className={`
-                capitalize border-b py-4 md:border-none md:py-0 hover:text-orange-600`}
+                capitalize border-b py-4 md:border-none md:py-0 hover:text-blue-600`}
 
             >
               <Link href={`/about`}>About</Link>
@@ -61,7 +61,7 @@ const Navbar = () => {
             {[ "services", "products",].map((link) => (
               <li
                 key={link}
-                className={`capitalize border-b py-4 md:border-none md:py-0 hover:text-orange-600`}
+                className={`capitalize border-b py-4 md:border-none md:py-0 hover:text-blue-600`}
                 onClick={() => setSelectedItem(link)}
               >
                 <Link href={`/${link}`}>{link}</Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center gap-2 sm:gap-4 md:gap-2 lg:gap-4">
-        <Link href={"/contact"}>  <button className="capitalize text-sm sm:text-base border-2 hover:border-2 font-semibold sm:py-3 py-2 px-3 sm:px-6 text-orange-600 border-orange-600 hover:border-orange-600 hover:bg-orange-600 hover:text-white rounded-full">
+        <Link href={"/contact"}>  <button className="capitalize text-sm sm:text-base border-2 hover:border-2 font-semibold sm:py-3 py-2 px-3 sm:px-6 text-blue-600 border-blue-600 hover:border-blue-600 hover:bg-blue-600 hover:text-white rounded-full">
            Contact Us
           </button></Link>
           <button

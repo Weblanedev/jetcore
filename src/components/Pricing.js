@@ -13,7 +13,7 @@ const Plan = ({ title }) => {
   
   return (
     <div className="flex items-center gap-2">
-      <CheckCircleIcon className="text-orange-600 text-xl" />
+      <CheckCircleIcon className="text-blue-600 text-xl" />
       <span>{title}</span>
     </div>
   );
@@ -59,11 +59,11 @@ const PricingCard = ({ name, title, price, image, btnText, trail, titleOne, titl
         <Link href="/billing">
           <p
             onClick={() => { purchase(name, price) }}
-            className="w-fit capitalize text-base hover:bg-orange-600 hover:shadow-md hover:shadow-orange-600 hover:border-2 border-2 border-transparent py-3 px-6 text-white bg-orange-600 hover:border-orange-600 hover:text-white rounded-full">
+            className="w-fit capitalize text-base hover:bg-blue-600 hover:shadow-md hover:shadow-blue-600 hover:border-2 border-2 border-transparent py-3 px-6 text-white bg-blue-600 hover:border-blue-600 hover:text-white rounded-full">
             {btnText}
           </p>
         </Link>
-        <span className="block text-orange-600 mt-5 font-semibold animate-bounce cursor-pointer">
+        <span className="block text-blue-600 mt-5 font-semibold animate-bounce cursor-pointer">
           {trail}
         </span>
       </div>
@@ -86,12 +86,12 @@ const Pricing = () => {
       <div className="relative transition-all flex gap-1 mx-auto w-fit bg-slate-100 p-2 rounded-full">
         <div
           className={`${plan === "Products" ? "left-2 w-[120px]" : "left-[125px] w-[100px]"
-            } transition-all duration-500 absolute top-[.37rem] h-[55px]  rounded-full bg-orange-600`}
+            } transition-all duration-500 absolute top-[.37rem] h-[55px]  rounded-full bg-blue-600`}
         ></div>
         <button
           onClick={() => setPlan("Products")}
           className={`
-          ${plan === "Products" ? "text-white" : "text-orange-600"}
+          ${plan === "Products" ? "text-white" : "text-blue-600"}
           z-[1] capitalize text-base hover:border-2 border-2 border-transparent py-3 px-5  rounded-full`}
         >
           Products
@@ -99,7 +99,7 @@ const Pricing = () => {
         <button
           onClick={() => setPlan("Services")}
           className={`
-          ${plan === "Services" ? "text-white" : "text-orange-600"}
+          ${plan === "Services" ? "text-white" : "text-blue-600"}
           z-[1] capitalize text-base hover:border-2 border-2 border-transparent py-3 px-5  rounded-full`}
         >
           Services
